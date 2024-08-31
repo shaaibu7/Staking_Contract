@@ -4,7 +4,7 @@ pragma solidity ^0.8.24;
 import "./interfaces/IERC20.sol";
 
 
-contract stakeEther {
+contract stakeToken {
     address owner;
     address tokenAddress;
     uint public contractBalance = address(this).balance;
